@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://media2.giphy.com/media/3og0IFrHkIglEOg8Ba/giphy.gif?cid=790b76112b666dad28f4546e36a39e7ba4bae4ed802878fa&rid=giphy.gif");
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.main-nav{
+    /* float: right; */
+    text-align: right;
+    list-style: none;
+    padding-top: 30px;
+
+    
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav a {
+    display: block;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:"Roboto", sans-serif;
+    font-size: 15px;
+    
+}
+
+.main-nav li.active a {
+    border: 1px solid white;
+}
+
+.main-nav li a:hover{
+    border: 1px solid white;
+} 
+.logo img {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+body{
+    font-family: monospace;
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.hero{
+    position: absolute;
+    width: 1200px; 
+    margin-left: 0px;
+    margin-top: 0px;
+} 
+
+.hero h1{
+    color:rgb(211, 89, 211);
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align:center;
+    margin-top: 275px;
+    font-style: oblique;
+}
+
+.button{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+
+.btn{
+    border: solid white;
+    padding:10px 30px;
+    color:aliceblue;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one{
+    background-color: darkorange;
+    font-family:"Roboto",sans-serif;
+
+}
+
+.btn-two{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover{ 
+    background-color: darkorange;
+    transition: 0.5s ease-in;
+
+}
+/*--------------Introduction-----------------*/
+#introduction{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: darkorchid;
+    background-image: url("");
+    background-position: center;
+    
+   
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.container{
+    background-image: url("pic7.jpg");
+     background-position: center;
+     background-color: pink;
+}
+
+/*------About------*/
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: darkorchid;
+    background-color:aliceblue;
+    background-image:url("pic2.jpg");
+
+}
+#about.btn {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#about.btn-primary{
+    font-family: "Roboto",sans-serif;
+    }
+   
+.btn-primary{
+    background-color:transparent ;
+    font-family: "Roboto",sans-serif;
+    border: 2px solid rgb(14, 14, 14);
+    color: rgb(14, 14, 14);
+    }
+
+.btn-primary:hover{
+    background-color:darkorange ;
+    font-family: "Roboto",sans-serif;
+}
+.about-content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+/*----------Services--------*/
+
+#Services{
+
+    background-image: url("pic2.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    color:black !important;
+    background-attachment: fixed;
+    padding-top: 5px;
+    padding-bottom: 10px; 
+    text-align: center;
+   
+}
+
+#Services h1{
+    
+    margin-top: 30px;
+    
+    font-size: 40px;
+    font-size: 70px;
+    margin-top: 100px;
+    font-style: oblique;
+    color:purple;
+    text-align: center;
+}
+
+
+#Services h1::after{
+    content:'';
+    background:black;
+    display:block;
+    height:3px;
+    width: 170px;
+    margin:20px auto 5px;
+    
+}
+
+.Services{
+    margin-top: 40px;
+    
+}
+
+
+#services p{
+    font-size: 14px;
+    margin-top: 20px;
+    color:black;
+  
+
+
+
+}
+ .services .col-md-3:hover{
+     background:#007bff ;
+     cursor: pointer;
+     transition: 0.5s;
+     
+ }
+
+ .container p {
+     font-size: large;
+ }
+
+/*---------contact------*/
+
+ #contact{
+    
+     padding-bottom: 40px;
+     color:#777; 
+     background-position: center;
+     color:black!important;
+     background-attachment: fixed;
+     padding-top: 20px;
+     padding-bottom: 50px;
+      background-image: url("pic1.jpg");
+     background-position: center;
+ }
+
+ .contact-container{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://media2.giphy.com/media/3og0IFrHkIglEOg8Ba/giphy.gif?cid=790b76112b666dad28f4546e36a39e7ba4bae4ed802878fa&rid=giphy.gif");
+
+ }
+ .form{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://media2.giphy.com/media/3og0IFrHkIglEOg8Ba/giphy.gif?cid=790b76112b666dad28f4546e36a39e7ba4bae4ed802878fa&rid=giphy.gif");
+
+ }
+
+.contact-form{
+width: 50%;
+margin-left: 25%;
+
+}
+
+.form-control{
+    border-radius: 0 !important;
+    border: none !important;
+    width: 100%;
+    height: 25px;
+}
+
+::placeholder{
+    color: #999 !important;
+}
+
+.hi{
+    margin-top: 30px;
+    margin-left: 440px;
+    font-size: 40px;
+    font-size: 70px;
+    
+    margin-top: 275px;
+    font-style: oblique;
+     
+}
+ .hi::after{
+      content:'';
+     display:block;
+     height:30px;
+     width: 170px;
+     margin:20px auto 5px;
+ 
+ }  
+
+.container{
+   
+ background-image: url("pic7.jpg");
+background-position: center;
+background-color: pink;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
